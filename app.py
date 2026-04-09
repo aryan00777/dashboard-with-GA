@@ -39,7 +39,7 @@ client = get_ga_client()
 # STATUS
 # -----------------------------
 if client is not None:
-    st.success("🟢 Google Analytics Connected Successfully")
+    st.success("🟢 Google Analytics Connected Successfull")
 else:
     st.error("🔴 Google Analytics Connection Failed! — Using Sample Data")
 
@@ -135,7 +135,7 @@ def fetch_ga_data():
         return df
 
     except Exception as e:
-        st.error("❌ GA API failed — using sample dataset")
+        st.error("❌ GA API failed Intentionally Because Of Wrong Credentials — using sample dataset ")
         st.exception(e)
         return generate_sample_data()
 
