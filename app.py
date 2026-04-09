@@ -41,7 +41,7 @@ client = get_ga_client()
 if client is not None:
     st.success("🟢 Google Analytics Connected Successfully")
 else:
-    st.error("🔴 Google Analytics Connection Failed — Using Sample Data")
+    st.error("🔴 Google Analytics Connection Failed! — Using Sample Data")
 
 # -----------------------------
 # SAMPLE DATA (ENHANCED)
