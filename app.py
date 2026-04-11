@@ -39,7 +39,7 @@ client = get_ga_client()
 # STATUS
 # -----------------------------
 if client is not None:
-    st.success("🟢 Google Analytics Connected Successfull, But there will be a error because I can not put my real credentails in github scroll down to view the project ")
+    st.success("🟢 Google Analytics Connected Successfull, But there will be an error because I can not put my real credentails in github scroll down to view the project ")
 else:
     st.error("🔴 Google Analytics Connection Failed! — Using Sample Data")
 
