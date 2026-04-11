@@ -135,7 +135,7 @@ def fetch_ga_data():
         return df
 
     except Exception as e:
-        st.error("❌ GA API failed Intentionally Because Of Wrong Credentials — using sample dataset Scroll down to view the project !!! ")
+        st.error("❌ GA API failed Intentionally Because Of Wrong Credentials — using sample dataset ")
         st.exception(e)
         return generate_sample_data()
 
